@@ -8,27 +8,24 @@
 </head>
 
 <body>
-
-    
     <form action="/login" method="POST">
         <div class="form">
-            <div class="auth">
-                <h1>Authentification</h1>
-            </div>
-            
+            <h3>Authentification</h3>
             <div class="inputs">
-                <input type="text" id="username" name="username" required>
-                <label for="username">Nom d'utilisateur:</label>
-        
-                <input type="password" id="password" name="password" required>
-                <label for="password">Mot de passe:</label>
+                <div class="test">
+                    <label for="username">Nom d'utilisateur </label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="test">
+                    <label for="password">Mot de passe </label>
+                    <input type="password" id="password" name="password" required>
+                </div>
             </div>
             <div class="buttons">
                 <input type="reset" value="Rénitialiser">
-                <input type="submit" value="Se connecter">
+                <input type="submit" value="Envoyer">
             </div>
         </div>
     </form>
 </body>
-
 </html>

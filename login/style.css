@@ -19,8 +19,9 @@ body {
 }
 
 .form {
-    background-color: red !important;
-    padding: 50px;
+    border: groove #ADD8E6;
+    background-image: linear-gradient(white, #ADD8E6, white);
+    padding: 10px 25px;
     border-radius: 1806px;
     min-width: 30%;
     width: fit-content;
@@ -28,55 +29,37 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-}
-
-.auth {
-    width: fit-content;
+    gap: 2px;
 }
 
 .buttons {
     align-self: end;
+    margin-right: 10px;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    min-width: 90% ;
+    max-width: 140mm;
     margin: 0 auto;
 }
 
-.inputs label {
-    display: inline-block;
-    width: 150px; /* Set width for the label */
-    font-weight: bold;
-}
-
-.inputs input {
-    display: inline-block;
-    padding: 8px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: calc(100% - 160px); /* Make input take the remaining space */
-    margin-bottom: 12px;
-}
-/* div {
-    background-color: var(--bg);
-    border: 2px groove var(--border);
-    padding: 20px;
-    margin: 20px;
-    font-size: 20px;
-    width: fit-content;
-    border-radius: 25%;
+.test {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-  aspect-ratio: 25 / 3;
 }
 
-h1 {
-    color: var(--title);
-    text-decoration: underline;
-} */
+
+.buttons input {
+    padding: 1px 10px;
+}
+
+.test input {
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+}
