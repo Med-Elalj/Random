@@ -1,0 +1,82 @@
+:root {
+    --bg: #3498db;
+    --title: #5c2997;
+    --border: orange;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.form {
+    background-color: red !important;
+    padding: 50px;
+    border-radius: 1806px;
+    min-width: 30%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.auth {
+    width: fit-content;
+}
+
+.buttons {
+    align-self: end;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    min-width: 90% ;
+    margin: 0 auto;
+}
+
+.inputs label {
+    display: inline-block;
+    width: 150px; /* Set width for the label */
+    font-weight: bold;
+}
+
+.inputs input {
+    display: inline-block;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 160px); /* Make input take the remaining space */
+    margin-bottom: 12px;
+}
+/* div {
+    background-color: var(--bg);
+    border: 2px groove var(--border);
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    width: fit-content;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  aspect-ratio: 25 / 3;
+}
+
+h1 {
+    color: var(--title);
+    text-decoration: underline;
+} */
