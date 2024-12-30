@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.conteneur-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tete-de-page {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    background-image: url(logo.svg);
+}
+
+.barre-de-navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.barre-de-navigation {
+    display: flex;
+    align-items: center;
+    height: 6vh;
+    background-color: #a2a2a2;
+    width: 100%;
+}
+
+.barre-de-navigation li {
+    width: 100px;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barre-de-navigation li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.barre-de-navigation li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.heros {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.image-hero {
+    width: 100%;
+    height: 300px;
+    background-image: url(image.jpg);
+}
+
+.cartes-gauche {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    gap: 20px;
+    width: 70%;
+}
+
+.cartes-gauche>p {
+    margin: 0;
+}
+
+.cartes-droite {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 30%;
+}
+
+.articles-menu {
+    background-color: #7a7a7a;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.section-du-bas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.cartes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-carte {
+    width: 300px;
+    height: 200px;
+    background-color: #333;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a2a2a2;
+    color: white;
+    padding: 10px 0;
+}
